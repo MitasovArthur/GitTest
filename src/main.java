@@ -1,5 +1,9 @@
 public class main {
     public static void main(String[] args) {
-        System.out.println("haiasc");
+        String str ="I dont inderstend JAVA :(";
+        String strings [] = str.split(" ");
+        for (String s:strings) {
+            System.out.println(s);
+        }
     }
 }
